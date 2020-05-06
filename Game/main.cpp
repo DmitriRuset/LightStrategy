@@ -5,10 +5,10 @@
 #include "factories/UnitFactory.h"
 #include "factories/EnglandFactory.h"
 #include "factories/FranceFactory.h"
+#include "configs/config.h"
 
 
 int main() {
-    std::set<std::string> names_of_sides = {"England", "France"};
     std::cout << "This is a console game! Please write answers in console)\n";
     std::cout << "Please, choose your side!\n";
     std::cout << "Available: ";
@@ -29,8 +29,6 @@ int main() {
         return 0;
     }
 
-    std::set<std::string> units = {"swordsman", "archer", "artillery"};
-    
     size_t amount;
     std::cout << "You can create an army. You can choose up to ";
     std::cin >> amount;	   

@@ -4,14 +4,14 @@
 #include "../units/EnglishArtillery.h"
 
 
-std::shared_ptr<Swordsman> EnglandFactory::createSwordsman() {
+std::shared_ptr<Unit> EnglandFactory::createSwordsman() {
     return std::make_shared<EnglishSwordsman>();
 }
 
-std::shared_ptr<Archer> EnglandFactory::createArcher() {
+std::shared_ptr<Unit> EnglandFactory::createArcher() {
     return std::make_shared<EnglishArcher>();
 }
 
-std::shared_ptr<Artillery> EnglandFactory::createArtillery() {
+std::shared_ptr<Unit> EnglandFactory::createArtillery() {
     return std::make_shared<EnglishArtillery>();
 }

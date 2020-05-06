@@ -1,13 +1,14 @@
 #include "FrenchSwordsman.h"
 
+
 double FrenchSwordsman::damage() {
-    return 20.0;
+    return fr_swordsman_damage;
 }
 
 double FrenchSwordsman::hp() {
-    return 80.0;
+    return fr_swordsman_hp;
 }
 
 double FrenchSwordsman::armor() {
-    return 7.0;
+    return fr_swordsman_armor;
 }

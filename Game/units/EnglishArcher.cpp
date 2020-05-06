@@ -1,13 +1,13 @@
 #include "EnglishArcher.h"
 
 double EnglishArcher::damage() {
-    return 20.0;
+    return eng_archer_damage;
 }
 
 double EnglishArcher::hp() {
-    return 40.0;
+    return eng_archer_hp;
 }
 
 double EnglishArcher::armor() {
-    return 3.0;
+    return eng_archer_armor;
 }

@@ -1,14 +1,13 @@
 #include "FrenchArcher.h"
 
-//French Archer
 double FrenchArcher::damage() {
-    return 10.0;
+    return fr_archer_damage;
 }
 
 double FrenchArcher::hp() {
-    return 40.0;
+    return fr_archer_hp;
 }
 
 double FrenchArcher::armor() {
-    return 3.0;
+    return fr_archer_armor;
 }

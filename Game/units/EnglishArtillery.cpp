@@ -1,13 +1,13 @@
 #include "EnglishArtillery.h"
 
 double EnglishArtillery::damage() {
-    return 30.0;
+    return eng_artillery_damage;
 }
 
 double EnglishArtillery::hp() {
-    return 35.0;
+    return eng_artillery_hp;
 }
 
 double EnglishArtillery::armor() {
-    return 1.0;
+    return eng_artillery_armor;
 }

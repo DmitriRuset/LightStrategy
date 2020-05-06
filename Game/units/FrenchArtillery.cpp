@@ -1,13 +1,13 @@
 #include "FrenchArtillery.h"
 
 double FrenchArtillery::damage() {
-    return 35.0;
+    return fr_artillery_damage;
 }
 
 double FrenchArtillery::hp() {
-    return 37.0;
+    return fr_artillery_hp;
 }
 
 double FrenchArtillery::armor() {
-    return 2.0;
+    return fr_artillery_armor;
 }

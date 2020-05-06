@@ -1,5 +1,7 @@
 #pragma once
 #include "Artillery.h"
+#include "../configs/english_army/config_artillery_eng.h"
+
 
 
 class EnglishArtillery : public Artillery {
